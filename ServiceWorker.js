@@ -1,9 +1,9 @@
 const cacheName = "hyomon tech-World Builder-0.1";
 const contentToCache = [
-    "Build/web.loader.js",
-    "Build/web.framework.js.unityweb",
-    "Build/web.data.unityweb",
-    "Build/web.wasm.unityweb",
+    "Build/public.loader.js",
+    "Build/public.framework.js.unityweb",
+    "Build/public.data.unityweb",
+    "Build/public.wasm.unityweb",
     "TemplateData/style.css"
 
 ];

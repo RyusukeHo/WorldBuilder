@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/web.loader.js";
+      var loaderUrl = buildUrl + "/public.loader.js";
       var config = {
-        dataUrl: buildUrl + "/web.data.unityweb",
-        frameworkUrl: buildUrl + "/web.framework.js.unityweb",
-        codeUrl: buildUrl + "/web.wasm.unityweb",
+        dataUrl: buildUrl + "/public.data.unityweb",
+        frameworkUrl: buildUrl + "/public.framework.js.unityweb",
+        codeUrl: buildUrl + "/public.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "hyomon tech",
         productName: "World Builder",
@@ -84,7 +84,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-      canvas.style.background = "url('" + buildUrl + "/web.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/public.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
